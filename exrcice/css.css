@@ -1,0 +1,119 @@
+
+
+*{margin: 0px; padding: 0px; }
+
+p{
+    margin: 5px;
+    
+}
+body{
+    background-image: url(./pattern-background-desktop.svg );
+    height: 30vh;
+    width: 100%;
+     background-repeat: no-repeat;
+   background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+    background-color: #2780CC ;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 37%;
+    box-shadow: 0px 10px 15px 1px rgb(56 41 224 / 20%);
+    
+}
+.card-text{
+    text-align: center;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-name{
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+}
+
+.card-comment{
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+}
+.card-payment-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    height: 90px;
+    background-color:#aff7f4;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.card-payment-info-strt{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.crdimg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.icon, .confirm{
+    display: flex;
+    align-items: center;
+}
+.card-payment-button, .card-cancel{
+    display: flex;
+    justify-content: center;
+}
+.pymnt-btn{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 10px 15px 1px rgba(56, 41, 224, 0.2);
+    transition: all 200ms;
+    margin-bottom: 25px;
+}
+.pymnt-btn:hover{
+    opacity: 0.7;
+}
+.confirm-link{
+    color: hsl(245, 75%, 52%);
+    transition: opacity 150ms;
+}
+.confirm-link:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+.confirm-link:visited{
+    color: hsl(245, 75%, 52%);
+}
+.cancel-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    transition: all 150ms;
+}
+.cancel-link:hover{
+    opacity: 0.7;
+}
+.cancel-link:visited{
+    color: hsl(223, 47%, 23%);
+}
